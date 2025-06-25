@@ -1,0 +1,13 @@
+{
+  "name": "repse-monitoreo",
+  "version": "1.0.0",
+  "description": "Aplicacion de monitoreo de proveedores REPSE",
+  "scripts": {
+    "dev": "concurrently \"npm run --prefix server start\" \"npm run --prefix client dev\"",
+    "test": "echo \"No tests configured\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
